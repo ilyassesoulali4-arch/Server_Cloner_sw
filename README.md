@@ -201,7 +201,7 @@ python main.py
 
 ## 👨‍💻 Author
 
-### Ilyasse SW
+### ily_asse_sw
 
 GitHub:
 

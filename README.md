@@ -1,85 +1,226 @@
-# 🚀 ILYASSE SW CLONER v3.0.0
+<div align="center">
 
-> **Professional Discord Server Cloner** — أداة احترافية متطورة لنسخ سيرفرات ديسكورد بالكامل وبكل سهولة.
+# 🚀 ILYASSE SW CLONER
+
+### Professional Discord Server Cloning Utility
+
+نسخ هيكلة سيرفرات Discord بسرعة ودقة مع الحفاظ على الرولات والقنوات والتنظيم الأصلي.
+
+<br>
+
+![Version](https://img.shields.io/badge/Version-v3.0.0-blue)
+![Python](https://img.shields.io/badge/Python-3.8+-yellow)
+![Platform](https://img.shields.io/badge/Platform-Windows-green)
+![Status](https://img.shields.io/badge/Status-Stable-success)
+
+</div>
 
 ---
 
-## 📌 نبذة عن الأداة (Overview)
-أداة **ILYASSE SW CLONER** هي أداة قوية ومطورة مصممة لمساعدة أصحاب ومسؤولي سيرفرات ديسكورد على نسخ وتكرار السيرفرات بدقة واحترافية. تتيح لك الأداة نقل ونسخ كافة محتويات السيرفر الأصلي تشمل:
-* 📂 **القنوات (Channels):** القنوات النصية والصوتية والفئات (Categories) بكامل ترتيبها.
-* 🛡️ **الرولات والصلاحيات (Roles & Permissions):** جميع الرولات المرتبة وصلاحياتها بدقة عالية.
-* ⚙️ **الإعدادات والخصائص (Server Settings):** إعدادات السيرفر الأساسية.
-* 🔄 **خيارات مرنة:** إمكانية النسخ لسيرفر جديد تماماً أو الدمج والنسخ داخل سيرفر موجود مسبقاً.
+## ✨ Overview
+
+**ILYASSE SW CLONER** هي أداة سطر أوامر متقدمة مصممة لتسهيل عملية إعادة إنشاء هيكلة سيرفرات Discord بطريقة منظمة واحترافية.
+
+تم تطوير الأداة لتوفير تجربة بسيطة وسريعة لمسؤولي المجتمعات الذين يحتاجون إلى إعادة بناء أو نقل إعدادات السيرفرات مع أقل قدر ممكن من العمل اليدوي.
 
 ---
 
-## 🖥️ واجهة الأداة (CLI Interface)
-تأتي الأداة بواجهة تفاعلية وسهلة الاستخدام عبر سطر الأوامر:
+## 🎯 Features
+
+### 📂 Channel Structure Cloning
+- نسخ الفئات (Categories)
+- نسخ القنوات النصية (Text Channels)
+- نسخ القنوات الصوتية (Voice Channels)
+- الحفاظ على ترتيب القنوات الأصلي
+
+### 🛡️ Roles & Permissions
+- نسخ جميع الرولات
+- الحفاظ على ترتيب الرتب
+- نقل الصلاحيات والإعدادات المرتبطة بها
+
+### ⚙️ Server Configuration
+- استنساخ البنية التنظيمية للسيرفر
+- دعم النسخ إلى سيرفر جديد
+- دعم الدمج داخل سيرفر موجود
+
+### 🚀 User Friendly CLI
+- واجهة سريعة وخفيفة
+- أوامر واضحة وسهلة الاستخدام
+- تجربة تشغيل مباشرة بدون تعقيد
+
+---
+
+## 🖥️ Interface Preview
 
 ```text
-+=============================================+
-|         ILYASSE SW CLONER v3.0.0            |
-|              by ilyasse_dev                 |
-+=============================================+
+╔══════════════════════════════════════════════╗
+║           ILYASSE SW CLONER v3.0.0          ║
+║                by Ilyasse SW                ║
+╚══════════════════════════════════════════════╝
 
->> Professional Discord Server Cloner <<
------------------------------------------------
-[1] Clone Server
-[2] Set Token
-[3] Show Token Info
-[4] Clone to Existing Server
-[5] Help / Info
-[6] Exit
------------------------------------------------
-Choose option [1-6] > 
-⚙️ متطلبات التشغيل (Prerequisites)
-لك تعمل الأداة معك بدون أي مشاكل، يجب توفر المتطلبات التالية على جهازك:
+         Professional Discord Cloner
 
-لغة البرمجة Python:
+──────────────────────────────────────────────
 
-الأداة مبنية بلغة بايثون، يجب التأكد من تثبيت الإصدار الأحدث من بايثون (يوصى بـ Python 3.8 أو أعلى).
+ [1] Clone Server
+ [2] Set Token
+ [3] Show Token Info
+ [4] Clone To Existing Server
+ [5] Help & Information
+ [6] Exit
 
-🔗 رابط التحميل الرسمي: تحميل Python من هنا
+──────────────────────────────────────────────
 
-⚠️ ملاحظة هامة جداً أثناء التثبيت: تأكد من تحديد خيار "Add Python to PATH" في أسفل نافذة التثبيت الأولى لكي تعمل الأوامر معك بشكل صحيح.
+Select Option >
+```
 
-ملف المتطلبات (Requirements):
+---
 
-تحتاج الأداة إلى بعض مكتبات بايثون الإضافية (مثل requests أو discord.py وغيرها).
+## 📋 Requirements
 
-يمكنك تثبيتها بسهولة عبر فتح موجه الأوامر (CMD أو Terminal) في مسار الأداة وتنفيد الأمر التالي:
+قبل تشغيل الأداة تأكد من توفر:
 
-Bash
+| Requirement | Version |
+|------------|----------|
+| Python | 3.8 أو أحدث |
+| Pip | Latest |
+| Internet Connection | Required |
+
+### Download Python
+
+يمكن تحميل Python من الموقع الرسمي:
+
+https://www.python.org/downloads/
+
+> أثناء التثبيت تأكد من تفعيل:
+>
+> **Add Python to PATH**
+
+---
+
+## 📦 Installation
+
+### Clone Repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+cd YOUR_PROJECT
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
-أو يمكنك تثبيت المكتبات الأساسية يدوياً إذا لم يتوفر الملف:
+```
 
-Bash
+أو تثبيت الحزم الأساسية يدوياً:
+
+```bash
 pip install requests colorama
-🚀 طريقة الاستخدام (How to Use)
-قم بتحميل أو استنساخ المستودع على جهازك.
+```
 
-تأكد من تثبيت بايثون والمكتبات اللازمة كما هو موضح في قسم المتطلبات.
+---
 
-قم بتشغيل الأداة (عبر ملف التشغيل التنفيذي أو بتشغيل ملف السورس python main.py).
+## 🚀 Usage
 
-من القائمة الرئيسية، اختر [2] Set Token لإدخال توكن الحساب أو البوت الخاص بك.
+تشغيل البرنامج:
 
-اختر [1] Clone Server لنسخ سيرفر بالكامل، أو [4] Clone to Existing Server للنسخ داخل سيرفر موجود مسبقاً.
+```bash
+python main.py
+```
 
-اتبع التعليمات التي تظهر لك على الشاشة لإدخال معرف السيرفر المصدر (Source Server ID) والسيرفر الهدف (Target Server ID).
+أو تشغيل الملف التنفيذي مباشرة إذا كان متوفراً.
 
-🛡️ إرشادات الأمان وتحذيرات هامة (Security & Disclaimer)
-⚠️ تنبيه أمني خطير جداً (Token Warning):
+---
 
-لا تقم أبداً بمشاركة الـ Token (التوكن) الخاص بحسابك أو بوتك مع أي شخص آخر، ولا تقم برفعه أبداً إلى أي مستودع عام (Public Repository) على GitHub.
+## 🔧 Basic Workflow
 
-إذا قام أي شخص بالحصول على التوكن الخاص بك، فسوف يمتلك السيطرة الكاملة على حسابك أو بوتك.
+### 1️⃣ Configure Token
 
-مطور الأداة (ilyassesoulali4-arch) غير مسؤولي تماماً عن أي إساءة استخدام للأداة أو انتهاك لشروط خدمة Discord (Discord Terms of Service). استخدم الأداة بحذر وعلى مسؤوليتك الشخصية.
+من القائمة الرئيسية اختر:
 
-👤 المطور والصانع (Author)
-المطور: ilyasse_dev
+```text
+[2] Set Token
+```
 
-حساب GitHub: ilyassesoulali4-arch
+وأدخل التوكن المطلوب.
 
-⭐️ إذا اعجبتك الأداة، لا تنس دعمنا بوضع Star للمستودع!
+---
+
+### 2️⃣ Start Cloning
+
+اختر:
+
+```text
+[1] Clone Server
+```
+
+ثم أدخل:
+
+- Source Server ID
+- Target Server ID
+
+---
+
+### 3️⃣ Clone Into Existing Server
+
+اختر:
+
+```text
+[4] Clone To Existing Server
+```
+
+إذا كنت ترغب في نقل الهيكلة إلى سيرفر موجود مسبقاً.
+
+---
+
+## 🔒 Security Notice
+
+### Token Protection
+
+لا تشارك التوكن الخاص بك مع أي شخص.
+
+لا تقم برفع ملفات تحتوي على التوكن إلى:
+
+- GitHub
+- GitLab
+- Pastebin
+- أي منصة عامة
+
+أي شخص يمتلك التوكن يمكنه الوصول إلى الصلاحيات المرتبطة به.
+
+---
+
+## ⚠️ Disclaimer
+
+هذه الأداة مقدمة لأغراض تعليمية وإدارية فقط.
+
+يتحمل المستخدم المسؤولية الكاملة عن طريقة الاستخدام ومدى توافقها مع سياسات Discord وشروط الخدمة الخاصة به.
+
+---
+
+## 👨‍💻 Author
+
+### Ilyasse SW
+
+GitHub:
+
+**ilyassesoulali4-arch**
+
+---
+
+## ⭐ Support
+
+إذا أعجبك المشروع:
+
+🌟 قم بعمل Star للمستودع على GitHub.
+
+دعمك يساعد على تطوير وتحسين المشروع باستمرار.
+
+---
+
+<div align="center">
+
+### Thank You For Using ILYASSE SW CLONER ❤️
+
+</div>
